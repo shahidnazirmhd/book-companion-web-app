@@ -1,0 +1,31 @@
+services:
+  mysql:
+    container_name: mysql-bca
+    image: mysql:8.0.37
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: book_companion_app
+      MYSQL_USER: username
+      MYSQL_PASSWORD: password
+      MYSQL_ROOT_PASSWORD: password
+    ports:
+      # <Port exposed> : <MySQL Port running inside container>
+      - 3316:3306
+    volumes:
+      - mysql:/var/lib/mysql
+    networks:
+      - spring-app
+  mail-dev:
+    container_name: mail-dev-bca
+    image: maildev/maildev
+    ports:
+      - 1080:1080
+      - 1025:1025
+
+volumes:
+  mysql:
+    driver: local
+
+networks:
+  spring-app:
+    driver: bridge
