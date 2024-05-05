@@ -1,4 +1,4 @@
-package in.snm.bookcompanion.security;
+package in.snm.bookcompanion.handler;
 
 import lombok.Getter;
 import org.springframework.http.HttpStatus;

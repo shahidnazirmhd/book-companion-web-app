@@ -1,5 +1,7 @@
 package in.snm.bookcompanion.user;
 
+import in.snm.bookcompanion.book.Book;
+import in.snm.bookcompanion.history.BookTransactionHistory;
 import in.snm.bookcompanion.role.Role;
 import jakarta.persistence.*;
 import lombok.*;
@@ -41,8 +43,13 @@ public class User implements UserDetails, Principal {
 
     @ManyToMany(fetch = FetchType.EAGER)
     private List<Role> roles;
-    @OneToMany(mappedBy = "user")//OPTIONAL (also OPTIONAL in fetch)
-    private List<Token> tokens;
+//    @OneToMany(mappedBy = "user")//OPTIONAL (also OPTIONAL in fetch)
+//    private List<Token> tokens;
+
+    @OneToMany(mappedBy = "owner")
+    private List<Book> books;
+    @OneToMany(mappedBy = "user")
+    private List<BookTransactionHistory> histories;
 
     @CreatedDate
     @Column(nullable = false, updatable = false)

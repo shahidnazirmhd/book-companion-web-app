@@ -23,7 +23,8 @@ public class Token {
     private LocalDateTime expiresAt;
     private LocalDateTime validateAt;
 
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne
+            //(fetch = FetchType.LAZY)
     @JoinColumn(name = "_user_id", nullable = false)
     private User user;
 }

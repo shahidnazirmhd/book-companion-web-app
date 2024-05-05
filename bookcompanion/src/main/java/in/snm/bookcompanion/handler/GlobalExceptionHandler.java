@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 import java.util.HashSet;
 import java.util.Set;
 
-import static in.snm.bookcompanion.security.BusinessErrorCodes.*;
+import static in.snm.bookcompanion.handler.BusinessErrorCodes.*;
 import static org.springframework.http.HttpStatus.*;
 
 @RestControllerAdvice
