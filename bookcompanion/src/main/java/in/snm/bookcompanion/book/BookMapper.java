@@ -1,5 +1,7 @@
 package in.snm.bookcompanion.book;
 
+import in.snm.bookcompanion.file.FileUtils;
+import in.snm.bookcompanion.history.BookTransactionHistory;
 import org.springframework.stereotype.Service;
 
 @Service
@@ -28,8 +30,19 @@ public class BookMapper {
             .archived(book.isArchived())
             .shareable(book.isShareable())
             .owner(book.getOwner().getFullName())
-            //TODO: Impl book cover
-            //.cover()
+            .cover(FileUtils.readFileFromLocation(book.getBookCover()))
             .build();
+    }
+
+    public BookTransactionResponse toBookTransactionResponse(BookTransactionHistory history) {
+        return BookTransactionResponse.builder()
+                .id(history.getBook().getId())
+                .title(history.getBook().getTitle())
+                .authorName(history.getBook().getAuthorName())
+                .isbn(history.getBook().getIsbn())
+                .rate(history.getBook().getRate())
+                .returned(history.isReturned())
+                .returnApproved(history.isReturnApproved())
+                .build();
     }
 }
