@@ -4,34 +4,58 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c89e6ce-46b2-41e8-825e-030bae505329" name="Changes" comment="Project Restructured">
+    <list default="true" id="2c89e6ce-46b2-41e8-825e-030bae505329" name="Changes" comment="Angular Init">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/services/api-configuration.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/services/api.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/services/base-service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/services/fn/authentication/authenticate.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/services/fn/authentication/confirm.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/services/fn/authentication/register.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/services/fn/book/approve-return-borrow-book.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/services/fn/book/borrow-book.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/services/fn/book/find-all-books-by-owner.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/services/fn/book/find-all-books.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/services/fn/book/find-all-borrowed-books.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/services/fn/book/find-all-returned-books.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/services/fn/book/find-book-by-id.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/services/fn/book/return-borrow-book.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/services/fn/book/save-book.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/services/fn/book/update-book-archive-status.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/services/fn/book/update-book-shareable-status.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/services/fn/book/upload-book-cover-picture.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/services/fn/feedback/find-all-feedback-by-book.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/services/fn/feedback/save-feedback.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/services/models.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/services/models/authentication-request.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/services/models/authentication-response.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/services/models/book-request.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/services/models/book-response.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/services/models/book-transaction-response.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/services/models/feedback-request.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/services/models/feedback-response.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/services/models/page-response-book-response.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/services/models/page-response-book-transaction-response.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/services/models/page-response-feedback-response.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/services/models/registration-request.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/services/request-builder.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/services/services.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/services/services/authentication.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/services/services/book.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/services/services/feedback.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/services/strict-http-response.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/openapi/openapi.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-companion-ui/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-companion-ui/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-companion-ui/.vscode/extensions.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-companion-ui/.vscode/launch.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-companion-ui/.vscode/tasks.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-companion-ui/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-companion-ui/angular.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-companion-ui/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-companion-ui/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-companion-ui/server.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-companion-ui/src/app/app.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-companion-ui/src/app/app.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-companion-ui/src/app/app.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-companion-ui/src/app/app.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-companion-ui/src/app/app.config.server.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-companion-ui/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/book-companion-ui/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-companion-ui/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/book-companion-ui/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-companion-ui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/book-companion-ui/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-companion-ui/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/book-companion-ui/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-companion-ui/src/app/app.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/book-companion-ui/src/app/app.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-companion-ui/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/book-companion-ui/src/app/app.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/book-companion-ui/src/app/app.config.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/book-companion-ui/src/app/app.routes.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-companion-ui/src/assets/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-companion-ui/src/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-companion-ui/src/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-companion-ui/src/main.server.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-companion-ui/src/main.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-companion-ui/src/styles.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-companion-ui/tsconfig.app.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-companion-ui/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-companion-ui/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-companion-ui/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/book-companion-ui/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-companion-ui/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/book-companion-ui/src/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,43 +72,62 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "shahidnazirmhd"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;shahidnazirmhd&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/shahidnazirmhd/book-companion-web-app.git",
-    "accountId": "3a8661ae-4072-4235-8c9c-72d6b0802a23"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/shahidnazirmhd/book-companion-web-app.git&quot;,
+    &quot;accountId&quot;: &quot;3a8661ae-4072-4235-8c9c-72d6b0802a23&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/book-companion-ui/node_modules/@angular/core/index.d.ts" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2g83muubjjxuORQxtIQm92hHjJC" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="flattenPackages" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.BookcompanionApiApplication.executor": "Run",
-    "Maven.bookcompanion [compile].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Work Space/JetBrains/IntelliJ-workspace/book-companion-web-app",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.17816092"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.BookcompanionApiApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.bookcompanion [compile].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Work Space/JetBrains/IntelliJ-workspace/book-companion-web-app&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.17816092&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\Work Space\\JetBrains\\IntelliJ-workspace\\book-companion-web-app\\book-companion-ui\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RunManager" selected="Application.BookcompanionApiApplication">
     <configuration name="BookcompanionApiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="in.snm.bookcompanion.BookcompanionApiApplication" />
       <module name="bookcompanion" />
@@ -98,11 +141,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BookcompanionApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="bookcompanion" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="in.snm.bookcompanion.BookcompanionApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.BookcompanionApiApplication" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -112,6 +170,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715065539773</updated>
+      <workItem from="1715067350320" duration="5005000" />
+      <workItem from="1715072374948" duration="200000" />
     </task>
     <task id="LOCAL-00001" summary="Project Restructured">
       <option name="closed" value="true" />
@@ -121,11 +181,28 @@
       <option name="project" value="LOCAL" />
       <updated>1715066234995</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Angular Init">
+      <option name="closed" value="true" />
+      <created>1715066963181</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715066963181</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Project Restructured" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project Restructured" />
+    <MESSAGE value="Angular Init" />
+    <option name="LAST_COMMIT_MESSAGE" value="Angular Init" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
