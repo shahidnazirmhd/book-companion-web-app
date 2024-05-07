@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2c89e6ce-46b2-41e8-825e-030bae505329" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/book-companion-web-app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcompanion.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcompanion/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcompanion/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcompanion/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcompanion/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcompanion/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcompanion/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcompanion/src/main/java/in/snm/bookcompanion/BookcompanionApiApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcompanion/src/main/java/in/snm/bookcompanion/auth/AuthenticationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcompanion/src/main/java/in/snm/bookcompanion/auth/AuthenticationRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcompanion/src/main/java/in/snm/bookcompanion/auth/AuthenticationResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcompanion/src/main/java/in/snm/bookcompanion/auth/AuthenticationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcompanion/src/main/java/in/snm/bookcompanion/auth/RegistrationRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcompanion/src/main/java/in/snm/bookcompanion/book/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcompanion/src/main/java/in/snm/bookcompanion/book/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcompanion/src/main/java/in/snm/bookcompanion/book/BookMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcompanion/src/main/java/in/snm/bookcompanion/book/BookRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcompanion/src/main/java/in/snm/bookcompanion/book/BookRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcompanion/src/main/java/in/snm/bookcompanion/book/BookResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcompanion/src/main/java/in/snm/bookcompanion/book/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcompanion/src/main/java/in/snm/bookcompanion/book/BookSpecification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcompanion/src/main/java/in/snm/bookcompanion/book/BookTransactionResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcompanion/src/main/java/in/snm/bookcompanion/common/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcompanion/src/main/java/in/snm/bookcompanion/common/PageResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcompanion/src/main/java/in/snm/bookcompanion/docs/OpenApiConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcompanion/src/main/java/in/snm/bookcompanion/email/EmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcompanion/src/main/java/in/snm/bookcompanion/email/EmailTemplateName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcompanion/src/main/java/in/snm/bookcompanion/exception/OperationNotPermittedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcompanion/src/main/java/in/snm/bookcompanion/feedback/Feedback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcompanion/src/main/java/in/snm/bookcompanion/feedback/FeedbackController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcompanion/src/main/java/in/snm/bookcompanion/feedback/FeedbackMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcompanion/src/main/java/in/snm/bookcompanion/feedback/FeedbackRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcompanion/src/main/java/in/snm/bookcompanion/feedback/FeedbackRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcompanion/src/main/java/in/snm/bookcompanion/feedback/FeedbackResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcompanion/src/main/java/in/snm/bookcompanion/feedback/FeedbackService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcompanion/src/main/java/in/snm/bookcompanion/file/FileStorageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcompanion/src/main/java/in/snm/bookcompanion/file/FileUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcompanion/src/main/java/in/snm/bookcompanion/handler/BusinessErrorCodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcompanion/src/main/java/in/snm/bookcompanion/handler/ExceptionResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcompanion/src/main/java/in/snm/bookcompanion/handler/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcompanion/src/main/java/in/snm/bookcompanion/history/BookTransactionHistory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcompanion/src/main/java/in/snm/bookcompanion/history/BookTransactionHistoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcompanion/src/main/java/in/snm/bookcompanion/role/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcompanion/src/main/java/in/snm/bookcompanion/role/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcompanion/src/main/java/in/snm/bookcompanion/security/ApplicationAuditAware.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcompanion/src/main/java/in/snm/bookcompanion/security/AuthProviderConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcompanion/src/main/java/in/snm/bookcompanion/security/JwtAuthFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcompanion/src/main/java/in/snm/bookcompanion/security/JwtService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcompanion/src/main/java/in/snm/bookcompanion/security/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcompanion/src/main/java/in/snm/bookcompanion/security/UserImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcompanion/src/main/java/in/snm/bookcompanion/user/Token.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcompanion/src/main/java/in/snm/bookcompanion/user/TokenRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcompanion/src/main/java/in/snm/bookcompanion/user/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcompanion/src/main/java/in/snm/bookcompanion/user/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcompanion/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcompanion/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcompanion/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcompanion/src/main/resources/templates/activate_account.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookcompanion/src/test/java/in/snm/bookcompanion/BookcompanionApiApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dockerfile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "shahidnazirmhd"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/shahidnazirmhd/book-companion-web-app.git",
+    "accountId": "3a8661ae-4072-4235-8c9c-72d6b0802a23"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2g83muubjjxuORQxtIQm92hHjJC" />
+  <component name="ProjectViewState">
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Work Space/JetBrains/IntelliJ-workspace/book-companion-web-app"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2c89e6ce-46b2-41e8-825e-030bae505329" name="Changes" comment="" />
+      <created>1715065539773</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715065539773</updated>
+    </task>
+    <servers />
+  </component>
+</project>
