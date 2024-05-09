@@ -4,26 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c89e6ce-46b2-41e8-825e-030bae505329" name="Changes" comment="Login Impl">
-      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/pages/activate-account/activate-account.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/pages/activate-account/activate-account.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/pages/activate-account/activate-account.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/pages/activate-account/activate-account.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/pages/register/register.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/pages/register/register.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/pages/register/register.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/pages/register/register.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/services/token/token.service.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/services/token/token.service.ts" afterDir="false" />
+    <list default="true" id="2c89e6ce-46b2-41e8-825e-030bae505329" name="Changes" comment="Auth Impl">
+      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/modules/book/book-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/modules/book/book.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/modules/book/components/menu/menu.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/modules/book/components/menu/menu.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/modules/book/components/menu/menu.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/modules/book/components/menu/menu.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/modules/book/pages/main/main.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/modules/book/pages/main/main.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/modules/book/pages/main/main.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/modules/book/pages/main/main.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-companion-ui/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/book-companion-ui/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-companion-ui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/book-companion-ui/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/book-companion-ui/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/book-companion-ui/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-companion-ui/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/book-companion-ui/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-companion-ui/src/app/pages/login/login.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/book-companion-ui/src/app/pages/login/login.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-companion-ui/src/app/pages/login/login.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/book-companion-ui/src/app/pages/login/login.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-companion-ui/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/book-companion-ui/src/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookcompanion/src/main/java/in/snm/bookcompanion/handler/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookcompanion/src/main/java/in/snm/bookcompanion/handler/GlobalExceptionHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +135,7 @@
       <workItem from="1715072374948" duration="539000" />
       <workItem from="1715091310277" duration="9230000" />
       <workItem from="1715234905553" duration="808000" />
-      <workItem from="1715237384358" duration="11822000" />
+      <workItem from="1715237384358" duration="17634000" />
     </task>
     <task id="LOCAL-00001" summary="Project Restructured">
       <option name="closed" value="true" />
@@ -176,7 +169,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715104489926</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Auth Impl">
+      <option name="closed" value="true" />
+      <created>1715251534194</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1715251534194</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,7 +189,8 @@
     <MESSAGE value="Angular Init" />
     <MESSAGE value="OpenApi configured" />
     <MESSAGE value="Login Impl" />
-    <option name="LAST_COMMIT_MESSAGE" value="Login Impl" />
+    <MESSAGE value="Auth Impl" />
+    <option name="LAST_COMMIT_MESSAGE" value="Auth Impl" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
