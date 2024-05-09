@@ -4,17 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c89e6ce-46b2-41e8-825e-030bae505329" name="Changes" comment="OpenApi configured">
-      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/pages/login/login.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/pages/login/login.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/pages/login/login.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/pages/login/login.component.ts" afterDir="false" />
+    <list default="true" id="2c89e6ce-46b2-41e8-825e-030bae505329" name="Changes" comment="Login Impl">
+      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/pages/activate-account/activate-account.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/pages/activate-account/activate-account.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/pages/activate-account/activate-account.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/pages/activate-account/activate-account.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/pages/register/register.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/pages/register/register.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/pages/register/register.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/pages/register/register.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/services/token/token.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/services/token/token.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-companion-ui/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/book-companion-ui/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-companion-ui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/book-companion-ui/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/book-companion-ui/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/book-companion-ui/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-companion-ui/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/book-companion-ui/src/app/app.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/book-companion-ui/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/book-companion-ui/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-companion-ui/src/app/pages/login/login.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/book-companion-ui/src/app/pages/login/login.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-companion-ui/src/app/pages/login/login.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/book-companion-ui/src/app/pages/login/login.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/book-companion-ui/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/book-companion-ui/src/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookcompanion/src/main/java/in/snm/bookcompanion/security/AuthProviderConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookcompanion/src/main/java/in/snm/bookcompanion/security/AuthProviderConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookcompanion/src/main/java/in/snm/bookcompanion/handler/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookcompanion/src/main/java/in/snm/bookcompanion/handler/GlobalExceptionHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,12 +46,12 @@
     &quot;assignee&quot;: &quot;shahidnazirmhd&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/shahidnazirmhd/book-companion-web-app.git",
-    "accountId": "bbd01b17-4d39-41eb-8831-ddf0d2ea6e42"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/shahidnazirmhd/book-companion-web-app.git&quot;,
+    &quot;accountId&quot;: &quot;bbd01b17-4d39-41eb-8831-ddf0d2ea6e42&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/book-companion-ui/node_modules/@angular/core/index.d.ts" root0="SKIP_INSPECTION" />
   </component>
@@ -62,30 +71,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.BookcompanionApiApplication.executor": "Run",
-    "Maven.bookcompanion [compile].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Work Space/JetBrains/IntelliJ-workspace/book-companion-web-app",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.17816092",
-    "settings.editor.selected.configurable": "editor.preferences.completion",
-    "ts.external.directory.path": "D:\\Work Space\\JetBrains\\IntelliJ-workspace\\book-companion-web-app\\book-companion-ui\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.BookcompanionApiApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.bookcompanion [compile].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Work Space/JetBrains/IntelliJ-workspace/book-companion-web-app&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.17816092&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\Work Space\\JetBrains\\IntelliJ-workspace\\book-companion-web-app\\book-companion-ui\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.BookcompanionApiApplication">
     <configuration name="BookcompanionApiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="in.snm.bookcompanion.BookcompanionApiApplication" />
@@ -131,7 +140,9 @@
       <updated>1715065539773</updated>
       <workItem from="1715067350320" duration="5005000" />
       <workItem from="1715072374948" duration="539000" />
-      <workItem from="1715091310277" duration="9021000" />
+      <workItem from="1715091310277" duration="9230000" />
+      <workItem from="1715234905553" duration="808000" />
+      <workItem from="1715237384358" duration="11822000" />
     </task>
     <task id="LOCAL-00001" summary="Project Restructured">
       <option name="closed" value="true" />
@@ -157,7 +168,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715072808752</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Login Impl">
+      <option name="closed" value="true" />
+      <created>1715104489926</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1715104489926</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,7 +187,8 @@
     <MESSAGE value="Project Restructured" />
     <MESSAGE value="Angular Init" />
     <MESSAGE value="OpenApi configured" />
-    <option name="LAST_COMMIT_MESSAGE" value="OpenApi configured" />
+    <MESSAGE value="Login Impl" />
+    <option name="LAST_COMMIT_MESSAGE" value="Login Impl" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

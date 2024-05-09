@@ -3,6 +3,7 @@ package in.snm.bookcompanion.handler;
 
 import in.snm.bookcompanion.exception.OperationNotPermittedException;
 import jakarta.mail.MessagingException;
+import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.BadCredentialsException;
 import org.springframework.security.authentication.DisabledException;
@@ -96,6 +97,18 @@ public class GlobalExceptionHandler {
                         ExceptionResponse.builder()
                                 .errorDescription("Internal error, contact the admin")
                                 .error(exception.getMessage())
+                                .build()
+                );
+    }
+
+    @ExceptionHandler(DataIntegrityViolationException.class)
+    public ResponseEntity<ExceptionResponse> handleException(DataIntegrityViolationException dataIntegrityViolationException) {
+        return ResponseEntity
+                .status(CONFLICT)
+                .body(
+                        ExceptionResponse.builder()
+                                .errorDescription("Username/Email already registered")
+                                .error(dataIntegrityViolationException.getMessage())
                                 .build()
                 );
     }
