@@ -1,0 +1,23 @@
+li > a {
+  &:hover {
+    background-color: #E3F2FD;
+    border-radius: 5px;
+    text-decoration: underline;
+  }
+  &.active {
+    color: #85be00;
+    border-radius: 5px;
+  }
+}
+
+#btnLogout, #btnLogout > * {
+  &:hover {
+    background-color: #E3F2FD;
+    border-radius: 5px;
+    text-decoration: underline;
+  }
+  &:active {
+    color: #85be00;
+  }
+
+}
