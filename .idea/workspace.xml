@@ -4,20 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c89e6ce-46b2-41e8-825e-030bae505329" name="Changes" comment="Menu Impl">
-      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/modules/book/pages/book-list/book-list.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/modules/book/pages/book-list/book-list.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/modules/book/pages/book-list/book-list.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/modules/book/pages/book-list/book-list.component.ts" afterDir="false" />
+    <list default="true" id="2c89e6ce-46b2-41e8-825e-030bae505329" name="Changes" comment="Token interceptor Impl">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/modules/book/components/book-card/book-card.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/modules/book/components/book-card/book-card.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/modules/book/components/book-card/book-card.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/modules/book/components/book-card/book-card.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/modules/book/components/rating/rating.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/modules/book/components/rating/rating.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/modules/book/components/rating/rating.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/modules/book/components/rating/rating.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploads/users/102/1715583491668.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/book-companion-ui/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/book-companion-ui/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-companion-ui/src/app/modules/book/book-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/book-companion-ui/src/app/modules/book/book-routing.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/book-companion-ui/src/app/modules/book/book.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/book-companion-ui/src/app/modules/book/book.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/book-companion-ui/src/app/modules/book/components/menu/menu.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/book-companion-ui/src/app/modules/book/components/menu/menu.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-companion-ui/src/app/modules/book/components/menu/menu.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/book-companion-ui/src/app/modules/book/components/menu/menu.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-companion-ui/src/app/modules/book/components/menu/menu.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/book-companion-ui/src/app/modules/book/components/menu/menu.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-companion-ui/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/book-companion-ui/src/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookcompanion/src/main/java/in/snm/bookcompanion/security/JwtAuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookcompanion/src/main/java/in/snm/bookcompanion/security/JwtAuthFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-companion-ui/src/app/modules/book/pages/book-list/book-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/book-companion-ui/src/app/modules/book/pages/book-list/book-list.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book-companion-ui/src/app/modules/book/pages/book-list/book-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/book-companion-ui/src/app/modules/book/pages/book-list/book-list.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookcompanion/src/main/java/in/snm/bookcompanion/book/BookMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookcompanion/src/main/java/in/snm/bookcompanion/book/BookMapper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +142,9 @@
       <workItem from="1715234905553" duration="808000" />
       <workItem from="1715237384358" duration="17871000" />
       <workItem from="1715268742062" duration="5880000" />
-      <workItem from="1715424281358" duration="7594000" />
+      <workItem from="1715424281358" duration="7913000" />
+      <workItem from="1715578760327" duration="6950000" />
+      <workItem from="1715588380801" duration="11210000" />
     </task>
     <task id="LOCAL-00001" summary="Project Restructured">
       <option name="closed" value="true" />
@@ -188,7 +194,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715264813580</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Token interceptor Impl">
+      <option name="closed" value="true" />
+      <created>1715446424805</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1715446424805</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,7 +216,8 @@
     <MESSAGE value="Login Impl" />
     <MESSAGE value="Auth Impl" />
     <MESSAGE value="Menu Impl" />
-    <option name="LAST_COMMIT_MESSAGE" value="Menu Impl" />
+    <MESSAGE value="Token interceptor Impl" />
+    <option name="LAST_COMMIT_MESSAGE" value="Token interceptor Impl" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
