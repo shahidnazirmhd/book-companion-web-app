@@ -2,6 +2,7 @@ package in.snm.bookcompanion.handler;
 
 
 import in.snm.bookcompanion.exception.OperationNotPermittedException;
+import io.jsonwebtoken.ExpiredJwtException;
 import jakarta.mail.MessagingException;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.http.ResponseEntity;

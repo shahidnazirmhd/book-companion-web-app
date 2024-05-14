@@ -1,6 +1,6 @@
-import { Component } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {AuthenticationRequest} from "../../services/models/authentication-request";
-import {Router} from "@angular/router";
+import {ActivatedRoute, Router} from "@angular/router";
 import {AuthenticationService} from "../../services/services/authentication.service";
 import {TokenService} from "../../services/token/token.service";
 
@@ -9,7 +9,7 @@ import {TokenService} from "../../services/token/token.service";
   templateUrl: './login.component.html',
   styleUrl: './login.component.scss'
 })
-export class LoginComponent {
+export class LoginComponent implements OnInit{
 
   authRequest: AuthenticationRequest = {email: '', password: ''};
   errorMsg: Array<string> = [];
@@ -17,8 +17,17 @@ export class LoginComponent {
   constructor(
     private router: Router,
     private authService: AuthenticationService,
-    private tokenService: TokenService
+    private tokenService: TokenService,
+    private activeRoute: ActivatedRoute
   ) {
+  }
+
+  ngOnInit() {
+    this.activeRoute.queryParams.subscribe(params => {
+      if (params['tokenExpired']) {
+        this.errorMsg.push("Session expired. Please re-login");
+      }
+    })
   }
 
   login():void {

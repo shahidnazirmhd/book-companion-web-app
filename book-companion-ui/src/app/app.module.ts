@@ -41,7 +41,7 @@ import {httpTokenInterceptor} from "./services/interceptor/http-token.intercepto
     //   useClass: HttpTokenInterceptor,
     //   multi: true
     // }
-    HttpClient,
+    //HttpClient,
     provideHttpClient(withInterceptors([httpTokenInterceptor]))
   ],
   bootstrap: [AppComponent]
