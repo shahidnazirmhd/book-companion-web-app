@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {BookRequest} from "../../../../services/models/book-request";
 
 @Component({
   selector: 'app-manage-book',
@@ -7,6 +8,7 @@ import { Component } from '@angular/core';
 })
 export class ManageBookComponent {
 
+  bookRequest: BookRequest = {authorName: '', isbn: '', synopsis: '', title: ''};
   errorMsg: Array<string> = [];
   selectedPicture: string | undefined;
   selectedBookCover: any;
@@ -21,5 +23,9 @@ export class ManageBookComponent {
       }
       reader.readAsDataURL(this.selectedBookCover);
     }
+  }
+
+  saveBook() {
+
   }
 }
