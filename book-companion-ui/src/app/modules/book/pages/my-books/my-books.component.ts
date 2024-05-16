@@ -1,7 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {PageResponseBookResponse} from "../../../../services/models/page-response-book-response";
 import {BookService} from "../../../../services/services/book.service";
-import {Router} from "@angular/router";
+import {ActivatedRoute, Router} from "@angular/router";
 import {BookResponse} from "../../../../services/models/book-response";
 
 @Component({
@@ -69,14 +69,26 @@ export class MyBooksComponent implements OnInit {
   }
 
   archiveBook(book: BookResponse) {
-
+    this.bookService.updateBookArchiveStatus({
+      'book-id': book.id as number
+    }).subscribe({
+      next: () => {
+        book.archived = !book.archived;
+      }
+    });
   }
 
   shareBook(book: BookResponse) {
-
+    this.bookService.updateBookShareableStatus({
+      'book-id': book.id as number
+    }).subscribe({
+      next: () => {
+        book.shareable = !book.shareable;
+      }
+    });
   }
 
   editBook(book: BookResponse) {
-
+    this.router.navigate(['books', 'manage', book.id]);
   }
 }
