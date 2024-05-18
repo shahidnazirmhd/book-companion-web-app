@@ -932,7 +932,7 @@ book\\_companion\\_app|schema||username||UPDATE|G</Grants>
     </schema>
     <schema id="290" parent="1" name="book_companion_app">
       <Current>1</Current>
-      <LastIntrospectionLocalTimestamp>2024-05-07.07:37:51</LastIntrospectionLocalTimestamp>
+      <LastIntrospectionLocalTimestamp>2024-05-18.16:08:37</LastIntrospectionLocalTimestamp>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <user id="291" parent="1" name="username"/>
@@ -1128,7 +1128,7 @@ book\\_companion\\_app|schema||username||UPDATE|G</Grants>
       <Position>10</Position>
     </column>
     <column id="336" parent="295" name="synopsis">
-      <DasType>varchar(255)|0s</DasType>
+      <DasType>varchar(500)|0s</DasType>
       <Position>11</Position>
     </column>
     <column id="337" parent="295" name="title">

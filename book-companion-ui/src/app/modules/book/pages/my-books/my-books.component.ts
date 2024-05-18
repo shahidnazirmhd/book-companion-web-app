@@ -34,8 +34,9 @@ export class MyBooksComponent implements OnInit {
       },
       error: (err) => {
         console.log(err);
-        if (err.status as number === 403) {}
-        this.router.navigate(['login'], {queryParams: {tokenExpired: true}});
+        if (err.status as number === 403) {
+          this.router.navigate(['login'], {queryParams: {tokenExpired: true}});
+        }
       }
     });
   }
