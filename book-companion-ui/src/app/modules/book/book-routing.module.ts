@@ -6,35 +6,43 @@ import {MyBooksComponent} from "./pages/my-books/my-books.component";
 import {ManageBookComponent} from "./pages/manage-book/manage-book.component";
 import {BorrowedBooksComponent} from "./pages/borrowed-books/borrowed-books.component";
 import {MyReturnedBooksComponent} from "./pages/my-returned-books/my-returned-books.component";
+import {authGuard} from "../../services/guard/auth.guard";
 
 const routes: Routes = [
   {
     path: '',
     component: MainComponent,
+    canActivate: [authGuard],
     children: [
       {
         path: '',
-        component: BookListComponent
+        component: BookListComponent,
+        canActivate: [authGuard]
       },
       {
         path: 'my-books',
-        component: MyBooksComponent
+        component: MyBooksComponent,
+        canActivate: [authGuard]
       },
       {
         path: 'my-borrowed-books',
-        component: BorrowedBooksComponent
+        component: BorrowedBooksComponent,
+        canActivate: [authGuard]
       },
       {
         path: 'my-returned-books',
-        component: MyReturnedBooksComponent
+        component: MyReturnedBooksComponent,
+        canActivate: [authGuard]
       },
       {
         path: 'manage',
-        component: ManageBookComponent
+        component: ManageBookComponent,
+        canActivate: [authGuard]
       },
       {
         path: 'manage/:bookId',
-        component: ManageBookComponent
+        component: ManageBookComponent,
+        canActivate: [authGuard]
       }
     ]
   }

@@ -1,10 +1,8 @@
 import {Component, OnInit} from '@angular/core';
 import {PageResponseBookTransactionResponse} from "../../../../services/models/page-response-book-transaction-response";
 import {BookTransactionResponse} from "../../../../services/models/book-transaction-response";
-import {FeedbackRequest} from "../../../../services/models/feedback-request";
 import {BookService} from "../../../../services/services/book.service";
 import {Router} from "@angular/router";
-import {FeedbackService} from "../../../../services/services/feedback.service";
 
 @Component({
   selector: 'app-my-returned-books',
@@ -39,9 +37,9 @@ export class MyReturnedBooksComponent implements OnInit{
       },
       error: (err) => {
         console.log(err);
-        if (err.status as number === 403) {
-          this.router.navigate(['login'], {queryParams: {tokenExpired: true}});
-        }
+        // if (err.status as number === 403) {
+        //   this.router.navigate(['login'], {queryParams: {tokenExpired: true}});
+        // }
       }
     });
   }
