@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c89e6ce-46b2-41e8-825e-030bae505329" name="Changes" comment="Borrow &amp; return Impl">
-      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/services/guard/auth.guard.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-companion-ui/src/app/services/guard/auth.guard.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-companion-ui/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/book-companion-ui/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-companion-ui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/book-companion-ui/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-companion-ui/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/book-companion-ui/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-companion-ui/src/app/modules/book/book-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/book-companion-ui/src/app/modules/book/book-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-companion-ui/src/app/modules/book/components/menu/menu.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/book-companion-ui/src/app/modules/book/components/menu/menu.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-companion-ui/src/app/modules/book/pages/book-list/book-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/book-companion-ui/src/app/modules/book/pages/book-list/book-list.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-companion-ui/src/app/modules/book/pages/borrowed-books/borrowed-books.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/book-companion-ui/src/app/modules/book/pages/borrowed-books/borrowed-books.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-companion-ui/src/app/modules/book/pages/my-books/my-books.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/book-companion-ui/src/app/modules/book/pages/my-books/my-books.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-companion-ui/src/app/modules/book/pages/my-returned-books/my-returned-books.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/book-companion-ui/src/app/modules/book/pages/my-returned-books/my-returned-books.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-companion-ui/src/app/services/token/token.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/book-companion-ui/src/app/services/token/token.service.ts" afterDir="false" />
-    </list>
+    <list default="true" id="2c89e6ce-46b2-41e8-825e-030bae505329" name="Changes" comment="UI Completed" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,30 +51,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.BookcompanionApiApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.bookcompanion [compile].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Work Space/JetBrains/IntelliJ-workspace/book-companion-web-app&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.17816092&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;database.query.execution&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;D:\\Work Space\\JetBrains\\IntelliJ-workspace\\book-companion-web-app\\book-companion-ui\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.BookcompanionApiApplication.executor": "Run",
+    "Maven.bookcompanion [compile].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "base",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Work Space/JetBrains/IntelliJ-workspace/book-companion-web-app",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.17816092",
+    "settings.editor.selected.configurable": "database.query.execution",
+    "ts.external.directory.path": "D:\\Work Space\\JetBrains\\IntelliJ-workspace\\book-companion-web-app\\book-companion-ui\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.BookcompanionApiApplication">
     <configuration name="BookcompanionApiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="in.snm.bookcompanion.BookcompanionApiApplication" />
@@ -148,7 +133,7 @@
       <workItem from="1715847675420" duration="11503000" />
       <workItem from="1715922533088" duration="381000" />
       <workItem from="1716004794629" duration="16710000" />
-      <workItem from="1716088465788" duration="3010000" />
+      <workItem from="1716088465788" duration="3352000" />
     </task>
     <task id="LOCAL-00001" summary="Project Restructured">
       <option name="closed" value="true" />
@@ -246,7 +231,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716061407700</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="UI Completed">
+      <option name="closed" value="true" />
+      <created>1716091693325</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1716091693325</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,7 +259,8 @@
     <MESSAGE value="Manage book Impl" />
     <MESSAGE value="My books Impl" />
     <MESSAGE value="Borrow &amp; return Impl" />
-    <option name="LAST_COMMIT_MESSAGE" value="Borrow &amp; return Impl" />
+    <MESSAGE value="UI Completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="UI Completed" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
