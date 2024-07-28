@@ -14,7 +14,7 @@
 	<name>bookcompanion-api</name>
 	<description>Spring Boot project for book companion web app</description>
 	<properties>
-		<java.version>21</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
