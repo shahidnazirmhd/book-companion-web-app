@@ -16,8 +16,8 @@ COPY --from=build /build/target/bookcompanion-*.jar /app/
 
 EXPOSE 8088
 
-ENV DB_URL=jdbc:mysql://mysql-bca:3316/book_companion_app
+ENV DB_URL=jdbc:mysql://mysql-bca:3306/book_companion_app
 ENV ACTIVE_PROFILE=${PROFILE}
 ENV JAR_VERSION=${APP_VERSION}
 
-CMD java -jar -Dspring.profiles.active=${ACTIVE_PROFILE} -Dspring.datasouce.url=${DB_URL} bookcompanion-${JAR_VERSION}.jar
+CMD java -jar -Dspring.profiles.active=${ACTIVE_PROFILE} -Dspring.datasource.url=${DB_URL} bookcompanion-${JAR_VERSION}.jar

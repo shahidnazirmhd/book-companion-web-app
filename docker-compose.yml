@@ -21,6 +21,24 @@ services:
     ports:
       - 1080:1080
       - 1025:1025
+  bca-api:
+    container_name: bca-api
+    image: bca/bca:1.0.0
+    ports:
+      - 8088:8088
+    networks:
+      - spring-app
+    depends_on:
+      - mysql
+  bca-ui:
+    container_name: bca-ui
+    image: bca/bca-ui:1.0.0
+    ports:
+      - 8080:80
+    networks:
+      - spring-app
+    depends_on:
+      - bca-api
 
 volumes:
   mysql:
