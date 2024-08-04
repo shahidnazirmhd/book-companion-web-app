@@ -15,15 +15,15 @@ services:
       - mysql:/var/lib/mysql
     networks:
       - spring-app
-  mail-dev:
-    container_name: mail-dev-bca
-    image: maildev/maildev
-    ports:
-      - 1080:1080
-      - 1025:1025
+#  mail-dev:
+#    container_name: mail-dev-bca
+#    image: maildev/maildev
+#    ports:
+#      - 1080:1080
+#      - 1025:1025
   bca-api:
     container_name: bca-api
-    image: bca/bca:1.0.0
+    image: bca/bca:1.0.3
     ports:
       - 8088:8088
     networks:

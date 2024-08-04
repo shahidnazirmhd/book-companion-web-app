@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c89e6ce-46b2-41e8-825e-030bae505329" name="Changes" comment="Backend dockerized">
-      <change afterPath="$PROJECT_DIR$/book-companion-ui/nginx.conf" afterDir="false" />
+    <list default="true" id="2c89e6ce-46b2-41e8-825e-030bae505329" name="Changes" comment="Frontend dockerized">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book-companion-ui/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/book-companion-ui/src/app/app.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bookcompanion/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bookcompanion/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookcompanion/src/main/java/in/snm/bookcompanion/BookcompanionApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookcompanion/src/main/java/in/snm/bookcompanion/BookcompanionApiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookcompanion/src/main/java/in/snm/bookcompanion/email/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookcompanion/src/main/java/in/snm/bookcompanion/email/EmailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookcompanion/src/main/java/in/snm/bookcompanion/security/AuthProviderConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookcompanion/src/main/java/in/snm/bookcompanion/security/AuthProviderConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookcompanion/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bookcompanion/src/main/resources/application-dev.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker/backend/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/docker/backend/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/frontend/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/docker/frontend/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -280,7 +279,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722152983579</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Frontend dockerized">
+      <option name="closed" value="true" />
+      <created>1722758441014</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1722758441014</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -314,7 +321,8 @@
     <MESSAGE value="UI Completed" />
     <MESSAGE value="In Post production" />
     <MESSAGE value="Backend dockerized" />
-    <option name="LAST_COMMIT_MESSAGE" value="Backend dockerized" />
+    <MESSAGE value="Frontend dockerized" />
+    <option name="LAST_COMMIT_MESSAGE" value="Frontend dockerized" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
