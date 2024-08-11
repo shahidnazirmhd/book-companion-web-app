@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c89e6ce-46b2-41e8-825e-030bae505329" name="Changes" comment="Account activation using smtp.gmail Impl">
+    <list default="true" id="2c89e6ce-46b2-41e8-825e-030bae505329" name="Changes" comment="Setting up">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookcompanion/src/main/java/in/snm/bookcompanion/security/AuthProviderConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookcompanion/src/main/java/in/snm/bookcompanion/security/AuthProviderConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bookcompanion/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bookcompanion/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/backend/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/docker/backend/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -291,7 +291,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722776869348</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Setting up">
+      <option name="closed" value="true" />
+      <created>1723384776278</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1723384776278</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,7 +335,8 @@
     <MESSAGE value="Backend dockerized" />
     <MESSAGE value="Frontend dockerized" />
     <MESSAGE value="Account activation using smtp.gmail Impl" />
-    <option name="LAST_COMMIT_MESSAGE" value="Account activation using smtp.gmail Impl" />
+    <MESSAGE value="Setting up" />
+    <option name="LAST_COMMIT_MESSAGE" value="Setting up" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

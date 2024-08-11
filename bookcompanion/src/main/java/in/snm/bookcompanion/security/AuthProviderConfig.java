@@ -1,6 +1,7 @@
 package in.snm.bookcompanion.security;
 
 import lombok.RequiredArgsConstructor;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.domain.AuditorAware;
@@ -27,6 +28,9 @@ import static org.springframework.http.HttpHeaders.*;
 public class AuthProviderConfig {
 
     private final UserDetailsService userDetailsService;
+
+    @Value("${application.cors.origins:*}")
+    private List<String> allowedOrigin;
 
     @Bean
     public AuthenticationProvider authenticationProvider() {
@@ -55,17 +59,10 @@ public class AuthProviderConfig {
     public CorsFilter corsFilter() {
         final UrlBasedCorsConfigurationSource source =new UrlBasedCorsConfigurationSource();
         final CorsConfiguration config = new CorsConfiguration();
-        config.setAllowCredentials(true);
-        config.setAllowedOrigins(List.of("http://localhost:4200","http://localhost:8080"));
-        config.setAllowedHeaders(Arrays.asList(
-                AUTHORIZATION,
-                ACCEPT,
-                ORIGIN,
-                CONTENT_TYPE
-        ));
-        config.setAllowedMethods(Arrays.asList(
-                "GET", "POST", "DELETE", "PUT", "PATCH"
-        ));
+        //config.setAllowCredentials(true);
+        config.setAllowedOrigins(allowedOrigin);
+        config.setAllowedHeaders(List.of("*")); // * - NOT RECOMMENDED FOR PRODUCTION
+        config.setAllowedMethods(List.of("*"));
         source.registerCorsConfiguration("/**", config);
         return new CorsFilter(source);
     }
