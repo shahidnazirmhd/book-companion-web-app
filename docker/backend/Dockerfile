@@ -19,5 +19,8 @@ EXPOSE 8088
 ENV DB_URL=jdbc:mysql://mysql-bca:3306/book_companion_app
 ENV ACTIVE_PROFILE=${PROFILE}
 ENV JAR_VERSION=${APP_VERSION}
+ENV EMAIL_HOST_NAME: using_host_name
+ENV EMAIL_USER_NAME: using_user_name
+ENV EMAIL_PASSWORD: using_password
 
 CMD java -jar -Dspring.profiles.active=${ACTIVE_PROFILE} -Dspring.datasource.url=${DB_URL} bookcompanion-${JAR_VERSION}.jar
